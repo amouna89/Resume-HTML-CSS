@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/winnipeg.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -69,12 +69,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 70%;
+  border: 4px solid orange;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.3) rotate(30deg);
 }
 .tag {
   background-color: #efefef;
@@ -86,7 +86,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: orange;
 }
 .card {
   margin: 30px;
@@ -94,12 +94,13 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid #ccc;
+  border-bottom: 4px solid #9fc5e8;
   border-radius: 6px;
   transition: all .5s;
 }
+
 .card:hover {
-  border-color: #ff99ff;
+  border-color: orange;
 }
 
 ul.skills {
@@ -129,6 +130,12 @@ footer {
 footer .copyright {
   top: -8px;
   font-size: .75em;
+  padding-top: 60px;
+  font-weight: bold;
+  height:200px;
+  background-color:#9fc5e8;
+    
+
 }
 
 footer ul {
@@ -203,5 +210,66 @@ a.social:hover {
     margin: 40px auto;
   }
 
-}
 
+/*contactForm.html CSS styling*/
+.ContactForm h2 {   
+    text-align: center;
+    margin: 40px auto;
+    font-family: 'Crete Round', sans-serif;
+    border-bottom: 2px solid #9fc5e8;
+    width: 200px;
+   
+}
+    .inputForm{
+        padding: 10px;
+        margin-bottom: 30px;
+        height: 50px;
+        width:350px;
+        border-radius:10px;
+        border: 2px solid #9fc5e8;
+    }
+    form label {
+        
+        font-size: 20px;
+        margin-right: 30px;
+        margin-bottom: 60px;
+    }
+    form input {
+        
+        padding: 15px;
+        width:380px;
+        margin-bottom: 20px;
+        border:2px solid orange;
+        border-radius: 6px;
+        
+
+    }
+    .button {
+         width:150px;
+         padding: 5px;
+         background-color: orange;
+         color:white;
+         
+    }
+    form textarea {
+        border:2px solid orange; 
+        border-radius: 6px;
+    }
+/* amani added this part*/
+.card h2 {
+ text-align: center;
+ border: 2px solid #9fc5e8;
+ border-radius:6px;
+ font-family: 'Crete Round', sans-serif;
+ padding: 15px;
+ margin-top: 20px;
+    
+}
+/*resume.html css styling*/
+    .experience {
+        
+        color: #16537e;
+        margin-bottom: 40px;
+        border-bottom: 2px solid #d7d7d7;
+        padding-bottom: 15px;
+    }

@@ -2,24 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Ameni's Profile</title>
+  <title>Contact Form</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crete Round">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Crete Round'>
     
 </head>
     
   <body>
 
-    <nav class="main-nav">
+    <div class="main-nav">
         <ul class="nav">
           <li class="name">Ameni</li>
           <li><a href="index.html">Home</a></li>
           <li><a href="resume.html" target="_blank">Resume</a></li>
           <li><a href="contactform.html" target="_blank">Hire me</a></li>
         </ul>
-    </nav>
+    </div>
 
     <header>
       <img src="images/ameni.jpg" alt="my picture" class="profile-image">
@@ -27,27 +27,22 @@
       <p class="tag location">I live in Canada.</p>
     </header>
 
-    <main class="flex">
-      <article class="card">
-        <h2>Background</h2>
-        <p>I am a network engineer and I am currently working as an IT agent in a french university.I would like to find a new job as a front end web developer so I deceided to take courses on treehouse .<br>
-        To learn more about my professional experience please <a href="resume.html" target="_blank">view my resume</a> </p>
-    
+    <main>
+      <section class="ContactForm">
+        <h2>Contact Form</h2>
+        <p>I can design a simple blog using HTML and CSS.If you want to hire me please fill in the following form.</p>
+        <form>
+            <label for="name"><strong>Name:</strong> </label>
+            <input id="name" type="text" placeholder="please enter your name" ><br>
+            <label for="email"><strong>Email:</strong></label>
+            <input id="email" type="text" placeholder="please enter your email adress" ><br>
+            <label><strong>Message:</strong></label>
+            <textarea rows="10" cols="50"></textarea><br><br>
+            <input type="submit" class="button">   
+        </form>  
         
-        </article> 
-
-      <article class="card">
-        <h2>Goals</h2>
-        <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
-        <ul class="skills">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>PHP</li>
-          <li>React JS</li>
-        </ul>
-        <p>I'd like to find a job in a french company as a front end web developer because I am perfectly bilingual .</p>
-      </article> 
+      </section> 
+        
 
     </main>
     <footer>
@@ -55,11 +50,12 @@
         <li><a href="https://www.linkedin.com/in/ameni-smiai" target ="_blank" class="social linkedin">LinkedIn</a></li>
         <li><a href="https://github.com/amouna89" target ="_blank" class="social github">Github</a></li>
       </ul>
-    <p class="copyright">
+     <p class="copyright">
         Contact informations:<br><br>
         Email: 123@gmail.com <br>
         phone: +1-000-000 <br><br>
           Copyright 2021, Ameni Smiai</p>
+     
     </footer>
   </body>
   </html>
